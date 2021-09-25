@@ -15,7 +15,7 @@ source-repository head
 
 library
   exposed-modules:
-      Pure.Control.Sync
+      Pure.Sync
 
   build-depends:
     base

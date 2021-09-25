@@ -1,4 +1,4 @@
-module Pure.Control.Sync (sync, sync', fork, forkSync) where
+module Pure.Sync (sync, sync', fork, forkSync) where
 
 import Control.Concurrent (forkIO, newEmptyMVar, readMVar, tryPutMVar)
 import Control.Monad (void)
